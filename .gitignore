@@ -1,0 +1,53 @@
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+*.h5
+*.hdf5
+
+# Outputs
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environment
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MLflow / experiment tracking
+mlruns/
+.mlflow/
+
+# Logs
+*.log
+logs/
